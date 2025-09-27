@@ -1,0 +1,21 @@
+{
+  "name": "github-watcher",
+  "version": "1.0.0",
+  "description": "Watching GitHub Repositories",
+  "main": "index.js",
+  "keywords": [
+    "GitHub"
+  ],
+  "author": "Poerance",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "node-fetch": "^2.7.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0"
+  }
+}
