@@ -66,7 +66,7 @@ client.on("interactionCreate", async interaction => {
 
 
 // Polling interval
-const POLL_INTERVAL = 1 * 60 * 1000; // 5 minutes
+const POLL_INTERVAL = 5 * 60 * 1000; // 5 minutes
 
 async function startPolling() {
     setInterval(async () => {
